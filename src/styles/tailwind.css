@@ -1,0 +1,42 @@
+/* Import Tailwind's base styles */
+@tailwind base;
+
+/* Import Tailwind's component styles */
+@tailwind components;
+
+/* Import Tailwind's utility classes */
+@tailwind utilities;
+
+/* Custom global styles (Optional) */
+body {
+  font-family: 'Inter', sans-serif; /* Customize font family */
+  background-color: #f9f9f9; /* Customize background color */
+  color: #333; /* Set a global text color */
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
+}
+
+a {
+  text-decoration: none; /* Remove underline for links */
+  color: inherit; /* Inherit text color for links */
+}
+
+button {
+  font-family: inherit; /* Ensure button font matches body font */
+  cursor: pointer; /* Show pointer cursor for buttons */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; /* Reset margins for headings */
+}
+
+ul {
+  list-style: none; /* Remove bullet points from lists */
+  padding: 0; /* Remove default padding for lists */
+}
+
+img {
+  max-width: 100%; /* Ensure images are responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Prevent inline-block gap */
+}
