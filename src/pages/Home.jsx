@@ -83,7 +83,7 @@ const Home = () => {
       id: 1, 
       title: 'Marketing Mastery', 
       price: 29, 
-      thumbnail: '/assets/images/marketing-strategy.jpg',
+      thumbnail: 'marketing.jpg',
       category: 'Business Strategy',
       description: 'Advanced marketing strategy blueprint for innovative businesses.'
     },
@@ -91,7 +91,7 @@ const Home = () => {
       id: 2, 
       title: 'Startup Launchpad', 
       price: 39, 
-      thumbnail: '/assets/images/business-plan.jpg',
+      thumbnail: '/img/Startup_Pitch_deck.jpg',
       category: 'Entrepreneurship',
       description: 'Comprehensive startup framework for visionary founders.'
     },
@@ -99,7 +99,7 @@ const Home = () => {
       id: 3, 
       title: 'Pitch Perfect', 
       price: 45, 
-      thumbnail: '/assets/images/sales-pitch.jpg',
+      thumbnail: '/img/Pitch_Perfect.jpg',
       category: 'Sales Excellence',
       description: 'Transformative pitch deck that captivates investors.'
     }
